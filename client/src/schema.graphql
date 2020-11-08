@@ -1,0 +1,7 @@
+  type TodoItem {
+    name: String!
+    id: String!
+  }
+  type Query {
+    todoItem(id: String!): TodoItem
+  }
